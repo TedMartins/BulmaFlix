@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tedflix | Um clone do NetFlix por Ted Martins</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/modal-fx.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <header>
+        <section class="hero is-black is-medium main-wrapper mb-0">
+
+            <nav class="navbar is-black">
+                <div class="navbar-brand">
+                    <p class="navbar-item">
+                    <h1 class="logo">TEDFLIX</h1>
+                    </p>
+                    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+                        <span>teste</span>
+                        <span>teste</span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <div id="navbarExampleTransparentExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <p class="menu" href="#">
+                            Início
+                        </p>
+                        <a class="menu" href="#">
+                            Séries
+                        </a>
+                        <a class="menu" href="#">
+                            Filmes
+                        </a>
+                        <a class="menu" href="#">
+                            Bombando
+                        </a>
+                        <a class="menu" href="#">
+                            Minha Lista
+                        </a>
+                    </div>
+
+                    <div class="navbar-end">
+                        <p class="menu-end">
+                            <i class="fas fa-search icons"></i>
+                        </p>
+                        <p class="menu-end">
+                            <i class="fas fa-gift icons"></i>
+                        </p>
+                        <p class="menu-end">
+                            <i class="fas fa-bell icons"></i>
+                        </p>
+                        <p class="menu-end" id="navend">
+                            <i class="fas fa-user-alt icons"></i>
+                        </p>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="hero-body is-black">
+                <div class="container">
+                    <h1 class="title">
+                        Coringa
+                    </h1>
+                    <h2 class="subtitle">
+                        Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia
+                        seu caminho
+                        como uma mente criminosa após assassinar três homens em pleno metrô. Sua ação inicia um
+                        movimento popular
+                        contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.
+                    </h2>
+                    <span class="modal-button button-play" data-target="coringa">
+                        <i id="mr" class="fas fa-play"></i> 
+                        Assistir
+                    </span>
+                    <span class="modal-button button-info" data-target="info">
+                        <i id="mr" class="fas fa-info-circle"></i>
+                        Mais Informações
+                    </span>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <article>
+        <section>
+            <div class="columns mt-0">
+                <div class="column is-12 has-text-centered">
+                    <div class="carouselMovies">
+                        <div class="owl-carousel owl-theme is-black">
+                            <div class="item">
+                                <img class="box-movie" src="img/Joker-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/breaking-bad-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/Hi-Score-Girl-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/better-call-saul-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/dilema-das-redes-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/clube-da-luta-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/el-camino-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/bacurau-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/desencanto-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/el-chapo-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/lucy-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/code-geass-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/marighella-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/mr-robot-min.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="box-movie" src="img/como-vender-drogas-online-min.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <footer>
+        <section class="hero is-black">
+            <div class="hero-body">
+                <div class="container">
+                    Tedflix é um clone da interface da Netflix desenvolvido com fins educativos.<br>
+                    Foi desenvolvido com Bulma Framework, jQuery, OwlCarousel e Modal-FX.<br>
+                    As imagens foram retiradas da internet, bem como os textos.  
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <aside>
+        <div id="coringa" class="modal modal-full-screen modal-fx-fadeInScale">
+            <div class="modal-content modal-card">
+                <header class="">
+                    <div class="columns is-centered mt-2">
+                        <div class="column is-11 has-text-right mb-0">
+                            <span class="button-x modal-button-close" aria-label="close"> <i class="far fa-times-circle fa-2x"></i> </span>
+                        </div>
+                    </div>
+                </header>
+                <section class="ovf">
+                    <div class="columns is-centered">
+                        <div class="column is-10 has-text-centered mb-0 mt-4">
+                            <div class="videoWrapper">
+                            <iframe id="fullWidth" src="https://www.youtube.com/embed/ntSvI2qaRxU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div id="info" class="modal modal-fx-3dSign">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <!-- content -->
+                <div class="box">
+                    <h2 class="modal-title">Coringa (2019)</h2>
+                    <hr>
+                    <p class="modal-text">
+                    Joker (no Brasil, Coringa) é um filme de suspense psicológico estadunidense de 2019, dirigido por 
+                    Todd Phillips, que co-escreveu o roteiro com Scott Silver. Baseado no personagem de mesmo nome da DC 
+                    Comics, o filme é estrelado por Joaquin Phoenix como o Coringa. Joker é ambientado em 1981, e representa 
+                    Arthur Fleck, um comediante de stand-up fracassado, que é levado à loucura e se envolve em uma vida de 
+                    crimes e caos em Gotham City. Robert De Niro, Zazie Beetz, Frances Conroy, Brett Cullen, Marc Maron, 
+                    Bill Camp, Shea Whigham, Glenn Fleshler, Douglas Hodge e Brian Tyree Henry, entre outros, 
+                    aparecem em papéis coadjuvantes. Produzido pela Village Roadshow Pictures, DC Films, Sikelia Productions, 
+                    Joint Effort Productions e Green Hat Films e distribuído pela Warner Bros. Pictures, faz parte da DC Black, 
+                    uma série de filmes baseados nos personagens da DC separados do Universo Estendido DC. 
+                    Não há relação com as outras versões do personagem vistas anteriormente no cinema.
+                    </p>
+                </div>
+                <!-- end content -->
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+    </aside>
+
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" defer></script>
+    <script src="js/owl/jquery.min.js" defer></script>
+    <script src="js/owl/owl.carousel.min.js" defer></script>
+    <script src="js/owl/setup.js" defer></script>
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
