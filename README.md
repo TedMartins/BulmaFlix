@@ -1,4 +1,4 @@
-# Tedflix
+# Bulma
 
 É um clone da interface do Netflix desenvolvido em caráter educativo.
 
@@ -17,6 +17,4 @@ E o projeto possuí as seguintes dependências:
 
 Como funcionalidades adicionais foram inseridos modais para exibição do vídeo (trailer) e navegação através das setas do teclado no carrossel.
 
-O projeto pode ser visualizado online em:
-
-[https://tedmartins.github.io/challenges/DIO-Tedflix-with-Bulma/index.html](https://tedmartins.github.io/challenges/DIO-Tedflix-with-Bulma/index.html)
+Para visualizar este projeto, simplesmente clone este repositório e execute o arquivo ```index.html```
