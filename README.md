@@ -1,4 +1,4 @@
-# Bulma
+# BulmaFlix
 
 É um clone da interface do Netflix desenvolvido em caráter educativo.
 
